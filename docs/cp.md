@@ -17,7 +17,7 @@ A sensible and generic control panel UI theme is available by default.
 
 ### Routing
 
-You can use the the `routes/cp.php` file to define additional routes for the control panel. Routes defined there will be automatically prefixed and grouped.
+You can use the `routes/cp.php` file to define additional routes for the control panel. Routes defined there will be automatically prefixed and grouped.
 
 Additionally, you can use the Route facade and **cp** method to define control panel routes.
 
@@ -29,7 +29,7 @@ Route::cp('custom/example/{entry}', 'Your\Controller@method');
 
 ### Configuration
 
-Before continueing please [enable the control panel](configuration#configuring-the-ui).
+Before continuing please [enable the control panel](configuration#configuring-the-ui).
 
 ## Components
 
